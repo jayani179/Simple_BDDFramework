@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="90.273462">
+<testcase classname="NopCommerce Login" name="Nopcommerce Valid Login Test" time="40.262911">
+<system-out><![CDATA[Given User able to open Browser.............................................passed
+And Enter an Url............................................................passed
+When User click on Login Link...............................................passed
+And User on Login Page and Verify Login page Title..........................passed
+Then User enter username and password and click on login button.............passed
+Then User is on Home Page and Verify Home page Title........................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="NopCommerce Login" name="Nopcommerce Valid Registration Test" time="12.860103">
+<system-out><![CDATA[Given user able to open Browser.............................................passed
+And enter an Url............................................................passed
+When User click on Register Link............................................passed
+Then user verify registration page..........................................passed
+Then Select gender..........................................................passed
+Then Enter "abcd2","xyz","abcd2@gmail.com","Test@123" and "Test@123"........passed
+Then Click on register button...............................................passed
+And user close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="NopCommerce Login" name="Nopcommerce Valid Registration Test 2" time="16.840141">
+<system-out><![CDATA[Given user able to open Browser.............................................passed
+And enter an Url............................................................passed
+When User click on Register Link............................................passed
+Then user verify registration page..........................................passed
+Then Select gender..........................................................passed
+Then Enter "abcd3","xyz","abcd3@gmail.com","Test@123" and "Test@123"........passed
+Then Click on register button...............................................passed
+And user close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="NopCommerce Login" name="Nopcommerce Valid Registration Test 3" time="20.310307">
+<system-out><![CDATA[Given user able to open Browser.............................................passed
+And enter an Url............................................................passed
+When User click on Register Link............................................passed
+Then user verify registration page..........................................passed
+Then Select gender..........................................................passed
+Then Enter "abcd4","xyz","abcd4@gmail.com","Test@123" and "Test@123"........passed
+Then Click on register button...............................................passed
+And user close the browser..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
